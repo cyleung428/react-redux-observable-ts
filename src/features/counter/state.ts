@@ -1,3 +1,8 @@
 export interface CounterState {
-    count: number
+    errorMessage: string,
+    count: number,
+    loading: boolean,
+    successCount: number,
+    failureCount: number,
+    cancelCount: number
 }
